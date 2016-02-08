@@ -1,6 +1,6 @@
 {
   "name": "map-array",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Map object keys and values into an array",
   "repository": "parro-it/map-array",
   "license": "MIT",
