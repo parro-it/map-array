@@ -1,32 +1,45 @@
 {
   "name": "map-array",
   "version": "0.0.1",
-  "description": "",
+  "description": "Map object keys and values into an array",
   "repository": "parro-it/map-array",
   "license": "MIT",
   "author": "parro-it",
   "scripts": {
     "test": "eslint . && node test | faucet"
   },
-  "keywords": [],
+  "keywords": [
+    "iterate",
+    "iterator",
+    "key",
+    "keys",
+    "map",
+    "arr",
+    "array",
+    "val",
+    "value",
+    "values"
+  ],
   "engines": {
     "node": ">=5"
   },
   "eslintConfig": {
-    "extends": "js",
-    "env": {
-      "node": true,
-      "browser": true,
-      "es6": true
-    }
+    "extends": [
+      "js",
+      "features"
+    ]
   },
   "devDependencies": {
     "eslint": "^1.10.3",
+    "eslint-config-features": "^1.1.5",
     "eslint-config-js": "^2.0.2",
     "faucet": "0.0.1",
     "tape": "^4.2.2"
   },
   "files": [
     "index.js"
-  ]
+  ],
+  "dependencies": {
+    "map-obj": "^1.0.1"
+  }
 }

@@ -1,8 +1,12 @@
 const test = require('tape');
 const mapArray = require('./');
 
-test('it work!', t => {
-  const result = mapArray();
-  t.equal(result, 42);
+test('convert an object to array', t => {
+  const obj = {
+    name: 'Giorgio',
+    surname: 'Bianchi'
+  };
+  const result = mapArray(obj, (key, value) => key + ' ' + value);
+  t.deepEqual(result, ['name Giorgio', 'surname Bianchi']);
   t.end();
 });
