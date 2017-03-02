@@ -4,9 +4,9 @@
   "description": "Map object keys and values into an array",
   "repository": "parro-it/map-array",
   "license": "MIT",
-  "author": "parro-it",
+  "author": "Andrea Parodi <andrea@parro.it>",
   "scripts": {
-    "test": "eslint . && node test | faucet"
+    "test": "ava && xo"
   },
   "keywords": [
     "iterate",
@@ -23,18 +23,14 @@
   "engines": {
     "node": ">=5"
   },
-  "eslintConfig": {
-    "extends": [
-      "js",
-      "features"
-    ]
-  },
   "devDependencies": {
+    "ava": "^0.18.2",
     "eslint": "^1.10.3",
     "eslint-config-features": "^1.1.5",
     "eslint-config-js": "^2.0.2",
     "faucet": "0.0.1",
-    "tape": "^4.2.2"
+    "tape": "^4.2.2",
+    "xo": "^0.17.1"
   },
   "files": [
     "index.js"
