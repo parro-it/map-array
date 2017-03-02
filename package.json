@@ -1,36 +1,36 @@
 {
-	"name": "map-array",
-	"version": "1.0.0",
-	"description": "Map object keys and values into an array",
-	"repository": "parro-it/map-array",
-	"license": "MIT",
-	"author": "Andrea Parodi <andrea@parro.it>",
-	"scripts": {
-		"test": "ava && xo"
-	},
-	"keywords": [
-		"iterate",
-		"iterator",
-		"key",
-		"keys",
-		"map",
-		"arr",
-		"array",
-		"val",
-		"value",
-		"values"
-	],
-	"engines": {
-		"node": ">=4"
-	},
-	"devDependencies": {
-		"ava": "^0.18.2",
-		"xo": "^0.17.1"
-	},
-	"files": [
-		"index.js"
-	],
-	"dependencies": {
-		"map-obj": "^2.0.0"
-	}
+  "name": "map-array",
+  "version": "1.1.0",
+  "description": "Map object keys and values into an array",
+  "repository": "parro-it/map-array",
+  "license": "MIT",
+  "author": "Andrea Parodi <andrea@parro.it>",
+  "scripts": {
+    "test": "ava && xo"
+  },
+  "keywords": [
+    "iterate",
+    "iterator",
+    "key",
+    "keys",
+    "map",
+    "arr",
+    "array",
+    "val",
+    "value",
+    "values"
+  ],
+  "engines": {
+    "node": ">=4"
+  },
+  "devDependencies": {
+    "ava": "^0.18.2",
+    "xo": "^0.17.1"
+  },
+  "files": [
+    "index.js"
+  ],
+  "dependencies": {
+    "map-obj": "^2.0.0"
+  }
 }
