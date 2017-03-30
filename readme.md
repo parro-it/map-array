@@ -1,5 +1,7 @@
 # map-array
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/parro-it/map-array.svg)](https://greenkeeper.io/)
+
 > Map object keys and values into an array
 
 [![Travis Build Status](https://img.shields.io/travis/parro-it/map-array.svg)](http://travis-ci.org/parro-it/map-array)
