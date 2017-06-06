@@ -27,6 +27,11 @@
     "ava": "^0.18.2",
     "xo": "^0.17.1"
   },
+  "browserify": {
+    "transform": [
+      "babelify"
+    ]
+  },
   "files": [
     "index.js"
   ],
