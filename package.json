@@ -6,7 +6,8 @@
   "license": "MIT",
   "author": "Andrea Parodi <andrea@parro.it>",
   "scripts": {
-    "test": "ava && xo"
+    "build": "rollup -c",
+    "test": "rollup -c && ava && xo --ignore index.js"
   },
   "keywords": [
     "iterate",
@@ -25,17 +26,16 @@
   },
   "devDependencies": {
     "ava": "^0.19.0",
+    "map-obj": "^2.0.0",
+    "rollup": "^0.43.0",
+    "rollup-plugin-commonjs": "^8.0.2",
+    "rollup-plugin-node-resolve": "^3.0.0",
     "xo": "^0.18.1"
-  },
-  "browserify": {
-    "transform": [
-      "babelify"
-    ]
   },
   "files": [
     "index.js"
   ],
   "dependencies": {
-    "map-obj": "^2.0.0"
+    "rollup-plugin-buble": "^0.15.0"
   }
 }
