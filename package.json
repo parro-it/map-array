@@ -25,7 +25,7 @@
     "node": ">=4"
   },
   "devDependencies": {
-    "ava": "^0.21.0",
+    "ava": "^0.22.0",
     "map-obj": "^2.0.0",
     "rollup": "^0.45.2",
     "rollup-plugin-commonjs": "^8.0.2",
