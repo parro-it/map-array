@@ -27,7 +27,7 @@
   "devDependencies": {
     "ava": "^0.24.0",
     "map-obj": "^2.0.0",
-    "rollup": "^0.52.0",
+    "rollup": "^1.20.2",
     "rollup-plugin-commonjs": "^8.0.2",
     "rollup-plugin-node-resolve": "^3.0.0",
     "xo": "^0.18.1"
